@@ -28,7 +28,9 @@ body {
 }
 .grid {
   display: grid;
-  column-gap: 10px;
+  gap: 30px;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-template-rows: 30vh 30vh;
 }
 
 #Daniel {
