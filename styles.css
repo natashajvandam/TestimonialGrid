@@ -103,7 +103,7 @@ body {
   box-shadow: 5px 5px -5px 12px rgba(128, 128, 128, 0.158);
 }
 .avatar {
-  width: 12vw;
+  width: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -111,11 +111,7 @@ body {
 }
 .avatar_details {
   display: flex;
-  height: 14px;
   width: 200px;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
   background: Green;
 }
 .avatar_img {
