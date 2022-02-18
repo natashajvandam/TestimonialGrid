@@ -80,6 +80,15 @@ body {
   color: var(--vd-grayish-blue);
 }
 
+#Jeanette > p,
+#Kira > p {
+  color: hsla(217, 19%, 35%, 0.7);
+}
+#Jeanette > h3,
+#Kira > h3 {
+  color: hsla(217, 19%, 35%, 0.5);
+}
+
 .testimonial {
   padding: 30px;
   border-radius: 7px;
@@ -93,10 +102,10 @@ body {
 }
 .avatar_details {
   display: flex;
-  height: 35px;
+  height: 14px;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 .avatar_img {
   width: 30px;
@@ -106,12 +115,22 @@ body {
   background-size: stretch;
   border-radius: 50%;
 }
+
 h2,
 h3 {
   font-weight: var(--weights-light);
   font-size: var(--size-font);
 }
+
+h3 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 h4 {
   font-size: 18px;
   font-weight: var(--weights-heavy);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
 }
