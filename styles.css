@@ -98,8 +98,7 @@ body {
   color: hsla(217, 19%, 35%, 0.7);
 }
 
-#Jeanette > h3,
-#Kira > h3 {
+.avatar_details_blue {
   color: hsla(217, 19%, 35%, 0.5);
 }
 
@@ -132,6 +131,8 @@ h2,
 h3 {
   font-weight: var(--weights-light);
   font-size: var(--size-font);
+  padding: 0;
+  margin: 0;
 }
 
 h3 {
