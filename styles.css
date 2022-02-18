@@ -29,27 +29,47 @@ body {
 .grid {
   display: grid;
   column-gap: 10px;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "Daniel Daniel Jonathan Kira"
-    "Jeanette Patrick Patrick Kira";
 }
 
 #Daniel {
-  grid-area: Daniel;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: var(--moderate-violet);
+  color: white;
 }
 #Jonathan {
-  grid-area: Jonathan;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: var(--vd-grayish-blue);
+  color: white;
 }
 #Jeanette {
-  grid-area: Jeanette;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: var(--white);
+  color: var(--vd-blackish-blue);
 }
 #Patrick {
-  grid-area: Patrick;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: var(--vd-blackish-blue);
+  color: white;
 }
 #Kira {
-  grid-area: Kira;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-color: var(--white);
+  color: var(--vd-blackish-blue);
 }
 
 .testimonial {
