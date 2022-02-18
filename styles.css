@@ -112,11 +112,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: yellow;
 }
 .avatar_details {
   width: 200px;
-  background: Green;
 }
 .avatar_img {
   width: 35px;
