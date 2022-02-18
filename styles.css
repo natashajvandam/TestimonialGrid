@@ -25,18 +25,16 @@ body {
 .content {
   display: flex;
   background-color: var(--light-grayish-blue);
-  width: 90vw;
-  height: 90vh;
   justify-content: center;
   align-items: center;
 }
 .grid {
   display: grid;
-  height: 80vh;
+  height: 60vh;
   width: 80vw;
-  gap: 100px;
-  grid-template-columns: 10vw 10vw 10vw 10vw;
-  grid-template-rows: 40vh 40vh;
+  gap: 30px;
+  grid-template-columns: 15vw 15vw 15vw 15vw;
+  grid-template-rows: 20vh 20vh;
 }
 
 #Daniel {
@@ -83,4 +81,33 @@ body {
 .testimonial {
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+.avatar {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.avatar_img {
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: none;
+  background-size: stretch;
+  border-radius: 50%;
+}
+h2 {
+  font-size: 15px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: var(--weights-heavy);
 }
