@@ -11,6 +11,13 @@
   --size-font: 13px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-size: var(--size-font);
+  font-family: var(--family-font);
+}
+
 .content {
   display: flex;
   background-color: var(--light-grayish-blue);
@@ -18,4 +25,40 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+.grid {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 80vw;
+  grid-template-rows: 60vw;
+  grid-template-areas:
+    "Daniel"
+    "Daniel"
+    "Jonathan"
+    "Jeanette"
+    "Patrick"
+    "Patrick"
+    "Kira"
+    "Kira";
+}
+
+#Daniel {
+  grid-area: Daniel;
+}
+#Jonathan {
+  grid-area: Jonathan;
+}
+#Jeanette {
+  grid-area: Jeanette;
+}
+#Patrick {
+  grid-area: Patrick;
+}
+#Kira {
+  grid-area: Kira;
+}
+
+.testimonial {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
