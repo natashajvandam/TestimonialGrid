@@ -80,20 +80,20 @@ body {
   color: var(--vd-grayish-blue);
 }
 
-/* .testimonial {
-  grid-row-start: 1;
-  grid-row-end: 3;
-} */
-
+.testimonials {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 10px grey;
+}
 .avatar {
   width: 12vw;
-  height: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .avatar_details {
   display: flex;
+  height: 35px;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
