@@ -105,7 +105,7 @@ body {
 .testimonial {
   padding: 30px;
   border-radius: 7px;
-  box-shadow: 5px 5px 12px -5px rgba(128, 128, 128, 0.158);
+  box-shadow: 5px 5px 20px -8px rgba(128, 128, 128, 0.253);
 }
 .avatar {
   width: 250px;
