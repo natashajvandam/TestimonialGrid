@@ -28,18 +28,12 @@ body {
 }
 .grid {
   display: grid;
-  column-gap: 50px;
-  grid-template-columns: 80vw;
-  grid-template-rows: 60vw;
+  column-gap: 10px;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
   grid-template-areas:
-    "Daniel"
-    "Daniel"
-    "Jonathan"
-    "Jeanette"
-    "Patrick"
-    "Patrick"
-    "Kira"
-    "Kira";
+    "Daniel Daniel Jonathan Kira"
+    "Jeanette Patrick Patrick Kira";
 }
 
 #Daniel {
