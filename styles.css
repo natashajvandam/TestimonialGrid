@@ -27,14 +27,16 @@ body {
   background-color: var(--light-grayish-blue);
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 .grid {
   display: grid;
   height: 60vh;
-  width: 80vw;
+  width: 85vw;
   gap: 30px;
-  grid-template-columns: 15vw 15vw 15vw 15vw;
-  grid-template-rows: 20vh 20vh;
+  grid-template-columns: 18vw 18vw 18vw 18vw;
+  grid-template-rows: 25vh 25vh;
 }
 
 #Daniel {
@@ -84,7 +86,7 @@ body {
 }
 
 .avatar {
-  width: 80px;
+  width: 12vw;
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -104,8 +106,10 @@ body {
   background-size: stretch;
   border-radius: 50%;
 }
-h2 {
-  font-size: 15px;
+h2,
+h3 {
+  font-weight: var(--weights-light);
+  font-size: var(--size-font);
 }
 h4 {
   font-size: 18px;
