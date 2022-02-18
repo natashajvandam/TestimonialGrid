@@ -80,7 +80,7 @@ body {
   color: var(--vd-grayish-blue);
 }
 
-.testimonials {
+.testimonial {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 10px grey;
