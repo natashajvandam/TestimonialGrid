@@ -55,10 +55,12 @@ body {
 }
 
 .bigQuotes {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   position: absolute;
-  z-index: 2;
+  z-index: -1;
+  right: 30px;
+  top: 2px;
 }
 
 #Jonathan {
