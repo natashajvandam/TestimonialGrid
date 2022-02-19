@@ -30,6 +30,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 150%;
+  padding: 20px 0;
 }
 .grid {
   display: grid;
