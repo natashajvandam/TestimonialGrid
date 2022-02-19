@@ -41,10 +41,10 @@ body {
 }
 
 #Daniel {
-  grid-column-start: 1;
+  /* grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 2; */
   background-color: var(--moderate-violet);
   color: white;
   position: relative;
@@ -63,26 +63,26 @@ body {
 }
 
 #Jonathan {
-  grid-column-start: 3;
+  /* grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 2; */
   background-color: var(--vd-grayish-blue);
   color: white;
 }
 #Jeanette {
-  grid-column-start: 1;
+  /* grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 3; */
   background-color: var(--white);
   color: var(--vd-grayish-blue);
 }
 #Patrick {
-  grid-column-start: 2;
+  /* grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 3; */
   background-color: var(--vd-blackish-blue);
   color: white;
 }
@@ -90,10 +90,10 @@ body {
   border: 3px solid var(--moderate-violet);
 }
 #Kira {
-  grid-row-start: 1;
+  /* grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 4;
-  grid-column-end: 5;
+  grid-column-end: 5; */
   background-color: var(--white);
   color: var(--vd-grayish-blue);
 }
