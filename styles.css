@@ -152,7 +152,4 @@ p {
   #Kira {
     order: 2;
   }
-  .testimonial {
-    grid-column: span 1;
-  }
 }
