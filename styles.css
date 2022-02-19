@@ -38,7 +38,6 @@ body {
   max-width: 1130px;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  background: green;
 }
 
 #Daniel {
@@ -80,6 +79,7 @@ body {
   background-color: var(--white);
   color: var(--vd-grayish-blue);
   grid-row: span 2;
+  margin-bottom: 50px;
 }
 
 .testimonial_blue {
