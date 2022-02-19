@@ -79,7 +79,6 @@ body {
   background-color: var(--white);
   color: var(--vd-grayish-blue);
   grid-row: span 2;
-  margin-bottom: 50px;
 }
 
 .testimonial_blue {
