@@ -50,7 +50,7 @@ body {
   position: relative;
 }
 #Daniel .avatar_img {
-  border: 3px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid hsl(263, 55%, 73%);
 }
 
 .bigQuotes {
