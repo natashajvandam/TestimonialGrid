@@ -38,7 +38,6 @@ body {
   max-width: 1130px;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  margin-bottom: 50px;
 }
 
 #Daniel {
@@ -152,4 +151,8 @@ p {
   #Kira {
     order: 2;
   }
+}
+
+.attribution {
+  margin: 50px 0;
 }
