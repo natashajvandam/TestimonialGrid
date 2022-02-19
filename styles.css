@@ -33,7 +33,7 @@ body {
   min-height: 100vh;
 }
 .grid {
-  margin-top: 10vw;
+  margin-top: 8vw;
   display: grid;
   height: 60vh;
   width: 90vw;
