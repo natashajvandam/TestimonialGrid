@@ -112,6 +112,8 @@ body {
   background-repeat: none;
   background-size: cover;
   border-radius: 50%;
+  position: relative;
+  z-index: 3;
 }
 
 h2,
@@ -120,6 +122,8 @@ h3 {
   font-size: var(--size-font);
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 3;
 }
 
 h3 {
