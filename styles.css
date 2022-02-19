@@ -78,7 +78,6 @@ body {
   background-color: var(--white);
   color: var(--vd-grayish-blue);
   grid-row: span 2;
-  order: 2;
 }
 
 .testimonial_blue {
@@ -147,5 +146,8 @@ p {
   #Patrick {
     grid-row: span 2;
     grid-column: span 1;
+  }
+  #Kira {
+    order: 2;
   }
 }
