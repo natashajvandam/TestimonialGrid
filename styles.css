@@ -29,14 +29,14 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 150%;
+  min-height: 100vh;
   padding: 20px 0;
 }
 .grid {
   display: grid;
   height: 60vh;
   width: 90vw;
-  max-width: 1200px;
+  max-width: 1140px;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(270px, 1fr));
