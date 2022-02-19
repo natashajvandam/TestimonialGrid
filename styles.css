@@ -36,8 +36,8 @@ body {
   height: 60vh;
   width: 85vw;
   gap: 30px;
-  grid-template-columns: 18vw 18vw 18vw 18vw;
-  grid-template-rows: 30vh 30vh;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-rows: repeat(2, 30vh);
 }
 
 #Daniel {
@@ -52,10 +52,10 @@ body {
   border: 3px solid rgba(255, 255, 255, 0.5);
 }
 
-/* .bigQuotes {
+.bigQuotes {
   width: 80px;
-  heightL:
-} */
+  height: 80px;
+}
 
 #Jonathan {
   grid-column-start: 3;
@@ -93,8 +93,7 @@ body {
   color: var(--vd-grayish-blue);
 }
 
-#Jeanette > p,
-#Kira > p {
+.testimonial_blue {
   color: hsla(217, 19%, 35%, 0.7);
 }
 
@@ -105,7 +104,7 @@ body {
 .testimonial {
   padding: 30px;
   border-radius: 7px;
-  box-shadow: 5px 5px 20px -8px rgba(128, 128, 128, 0.253);
+  box-shadow: 7px 7px 18px -8px rgba(128, 128, 128, 0.637);
 }
 .avatar {
   width: 250px;
@@ -117,8 +116,8 @@ body {
   width: 200px;
 }
 .avatar_img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   background-position: center;
   background-repeat: none;
   background-size: cover;
